@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин настольных игр "МиплоДом"</title>
+    <link rel="shortcut icon" type="image/png" href="#">
+    <meta name="description"
+          content="В нашем интернет-магазине вы можете купить настольные игры для детей и взрослых с доставкой по всей России!">
+    <meta name="author" content="Сергей Иванов">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+<header>
+    <div class="header-middle container">
+        <div class="header-middle__wrapper">
+
+            <div class="header-left-block">
+                <div class="main-logo">
+                    <a href="#" title="Hromoi Miple. Main">
+                        <img src="logo/main logo.jpg" alt="Hromoi Miple">
+                    </a>
+                </div>
+            </div>
+            <div class="mainimg"><img class="mainheader" src="img/image.png"/>
+            </div>
+            <div class="main-search">
+                <form id="header-search-form" class="" action="https://www.mosigra.ru/catalog/search" method="get">
+                    <div class="main-search__wrapper">
+                        <input name="keyword" class="main-search__input" type="text" value=""
+                               placeholder="например, Шакал" aria-describedby="mainSearch" autocomplete="off"
+                               required="">
+                        <button class="btn btn-search" type="submit" aria-label="Найти"></button>
+                        <div class="main-search__datalist datalist result"></div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="header-right-block">
+                <div class="login">
+                    <a class="js-openLoginModal login__link loginModal" href="#">
+                        <i class="icon-user-header"></i>
+                    </a>
+                </div>
+
+
+                <div class="user-favorites " id="favorites">
+                    <a class="user-favorites__link">
+                        <i class="icon-favorite"></i>
+                        <span id="favorites-counter" style="display: none" class="user-favorites__count "
+                              data-counter="0">
+        </span>
+                    </a>
+                </div>
+                <div class="product-cart " id="cart-popup"><a class="cart  ">
+                    <i class="icon-cart"></i>
+
+                </a></div>
+            </div>
+            <ul class="horizontal-menu__header-list">
+                <li data-id="1">
+                    <a href="#">Настольные игры</a>
+                </li>
+                <li data-id="2">
+                    <a href="#">Книги и комиксы</a>
+                </li>
+                <li data-id="3">
+                    <a href="#">Фигурки и мерч</a>
+                </li>
+                <li data-id="4">
+                    <a href="#">Аниме</a>
+                </li>
+                <li data-id="5">
+                    <a href="#">Предзаказы</a>
+                </li>
+                <li data-id="6">
+                    <a href="#">Игрушки и Развлечения</a>
+                </li>
+                <li data-id="7">
+                    <a href="#">Fun Food</a>
+                </li>
+                <li data-id="8">
+                    <a href="#">Новинки</a>
+                </li>
+                <li data-id="9">
+                    <a href="#">Со скидкой</a>
+                </li>
+                <li data-id="10">
+                    <a href="#">Лидеры продаж</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</header>
+<main class="container main-container">
+    <section class="content">
+        <section class="promo-block  mb-4" id="bestsellers_tabs">
+            <ul class="promo-block__list">
+                <li class="promo-block__item">
+
+
+                    <article class="card" data-product_id="335483" data-price="990">
+
+                        <a class="card__image" href="#">
+                            <div class="card-label">
+                                <span class="card-label__elem icon-label-hit" title="Хит сезона">Хит</span>
+
+
+                            </div>
+
+                            <img class=""
+                                 src="img/DSC_4693_600x600-150x150.jpg"
+                                 title="Взрывные котята 18+" alt="Взрывные котята 18+">
+
+                        </a>
+
+                        <div class="card__body">
+                            <a class="card__title " href="#"
+                               title="Взрывные котята 18+">
+                                Взрывные котята 18+
+                            </a>
+                            <p class="card__text">Киски, пытки, буфера</p>
+
+
+                            <div class="card__price">
+                                <p class="card__price-text  ">
+                                    <span>990&nbsp;₽</span>
+                                </p>
+
+                            </div>
+                            <div class="card__buttons buttons product-cart-buttons">
+
+
+                                <button class="btn btn-block btn-cart to-cart" type="button" data-id="335483"
+                                        data-info="Товар: Взрывные котята 18+, 990&nbsp;₽" data-category="1"
+                                        title="В корзину">
+                                    <span class="text not-cart">В корзину</span>
+                                    <span class="text in-cart hidden">Оформить заказ</span>
+                                </button>
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="promo-block__item">
+
+
+                    <article class="card  " data-product_id="329104" data-price="990">
+
+                        <a class="card__image " href="#">
+
+                            <div class="card-label">
+                                <span class="card-label__elem icon-label-hit" title="Хит сезона">Хит</span>
+
+
+                            </div>
+
+                            <img class=""
+                                 src="img/DSC_6561_600x600-150x150.jpg"
+                                 title="Взрывные котята" alt="Взрывные котята">
+
+                        </a>
+
+                        <div class="card__body">
+                            <a class="card__title " href="#"
+                               title="Взрывные котята">
+                                Взрывные котята
+                            </a>
+                            <p class="card__text">Безумие, апокалипсис и&nbsp;котики</p>
+
+
+                            <div class="card__price">
+                                <p class="card__price-text  ">
+                                    <span>990&nbsp;₽</span>
+                                </p>
+
+                            </div>
+                            <div class="card__buttons buttons product-cart-buttons">
+
+
+                                <button class="btn btn-block btn-cart to-cart" type="button" data-id="329104"
+                                        data-info="Товар: Взрывные котята, 990&nbsp;₽" data-category="1"
+                                        title="В корзину">
+                                    <span class="text not-cart">В корзину</span>
+                                    <span class="text in-cart hidden">Оформить заказ</span>
+                                </button>
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="promo-block__item">
+
+
+                    <article class="card  " data-product_id="329091" data-price="2990">
+
+                        <a class="card__image " href="#">
+
+                            <div class="card-label">
+                                <span class="card-label__elem icon-label-hit" title="Хит сезона">Хит</span>
+
+
+                            </div>
+
+                            <img class=""
+                                 src="img/1_600x600-150x150.jpg"
+                                 title="Место преступления" alt="Место преступления">
+
+                        </a>
+
+                        <div class="card__body">
+                            <a class="card__title " href="#"
+                               title="Место преступления">
+                                Место преступления
+                            </a>
+                            <p class="card__text">Холмс — вы, Ватсон — ваш телефон</p>
+
+
+                            <div class="card__price">
+                                <p class="card__price-text  ">
+                                    <span>2&nbsp;990&nbsp;₽</span>
+                                </p>
+
+                            </div>
+                            <div class="card__buttons buttons product-cart-buttons">
+
+
+                                <button class="btn btn-block btn-cart to-cart" type="button" data-id="329091"
+                                        data-info="Товар: Место преступления, 2&nbsp;990&nbsp;₽" data-category="1"
+                                        title="В корзину">
+                                    <span class="text not-cart">В корзину</span>
+                                    <span class="text in-cart hidden">Оформить заказ</span>
+                                </button>
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="promo-block__item">
+
+
+                    <article class="card  " data-product_id="329254" data-price="1990">
+
+                        <a class="card__image " href="#">
+
+                            <div class="card-label">
+                                <span class="card-label__elem icon-label-hit" title="Хит сезона">Хит</span>
+
+
+                            </div>
+
+                            <img class=""
+                                 src="img/carcassonne_2022_00-266x266.jpg"
+                                 title="Каркассон" alt="Каркассон">
+
+                        </a>
+
+                        <div class="card__body">
+                            <a class="card__title " href="#" title="Каркассон">
+                                Каркассон
+                            </a>
+                            <p class="card__text">Легендарная игра в&nbsp;новом обличье</p>
+
+
+                            <div class="card__price">
+                                <p class="card__price-text  ">
+                                    <span>1&nbsp;990&nbsp;₽</span>
+                                </p>
+
+                            </div>
+                            <div class="card__buttons buttons product-cart-buttons">
+
+
+                                <button class="btn btn-block btn-cart to-cart" type="button" data-id="329254"
+                                        data-info="Товар: Каркассон, 1&nbsp;990&nbsp;₽" data-category="1"
+                                        title="В корзину">
+                                    <span class="text not-cart">В корзину</span>
+                                    <span class="text in-cart hidden">Оформить заказ</span>
+                                </button>
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="promo-block__item">
+
+
+                    <article class="card  " data-product_id="325609" data-price="490">
+
+                        <a class="card__image " href="#">
+
+                            <div class="card-label">
+                                <span class="card-label__elem icon-label-hit" title="Хит сезона">Хит</span>
+
+
+                            </div>
+
+                            <img class=""
+                                 src="img/1-13-2_600x600-150x150.jpg"
+                                 title="Ёрш" alt="Ёрш">
+
+                        </a>
+
+                        <div class="card__body">
+                            <a class="card__title " href="#" title="Ёрш">
+                                Ёрш
+                            </a>
+                            <p class="card__text">Вечер, друзья и Ёрш — понеслось!!</p>
+
+
+                            <div class="card__price">
+                                <p class="card__price-text  ">
+                                    <span>490&nbsp;₽</span>
+                                </p>
+
+                            </div>
+                            <div class="card__buttons buttons product-cart-buttons">
+
+
+                                <button class="btn btn-block btn-cart to-cart" type="button" data-id="325609"
+                                        data-info="Товар: Ёрш, 490&nbsp;₽" data-category="1" title="В корзину">
+                                    <span class="text not-cart">В корзину</span>
+                                    <span class="text in-cart hidden">Оформить заказ</span>
+                                </button>
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="promo-block__item">
+
+
+                    <article class="card  " data-product_id="32021" data-price="490">
+
+                        <a class="card__image " href="#">
+
+                            <div class="card-label">
+                                <span class="card-label__elem icon-label-hit" title="Хит сезона">Хит</span>
+
+
+                            </div>
+
+                            <img class="" src="img/1685483-150x150.jpg"
+                                 title="Свинтус. Правила этикета" alt="Свинтус. Правила этикета">
+
+                        </a>
+
+                        <div class="card__body">
+                            <a class="card__title " href="#"
+                               title="Свинтус. Правила этикета">
+                                Свинтус. Правила этикета
+                            </a>
+                            <p class="card__text">Воспитание внутренней свиньи начнется прямо...</p>
+
+
+                            <div class="card__price">
+                                <p class="card__price-text  ">
+                                    <span>490&nbsp;₽</span>
+                                </p>
+
+                            </div>
+                            <div class="card__buttons buttons product-cart-buttons">
+
+
+                                <button class="btn btn-block btn-cart to-cart" type="button" data-id="32021"
+                                        data-info="Товар: Свинтус. Правила этикета, 490&nbsp;₽" data-category="1"
+                                        title="В корзину">
+                                    <span class="text not-cart">В корзину</span>
+                                    <span class="text in-cart hidden">Оформить заказ</span>
+                                </button>
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section class="sidebar sidebar--left sidebar--hidden">
+        <div class="main-menu">
+            <ul>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#" title="Все товары">
+                        Все товары
+                    </a>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#" title="Подарки на 8 марта">
+                        Подарки на 8 марта
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+                <li class="main-menu__item">
+                    <span class="main-menu__icon "></span>
+                    <a class="main-menu__link  " href="#" title="Настольные игры">
+                        Настольные игры
+                    </a>
+                    <ul class="main-menu__submenu ">
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#"
+                               title="Стратегические игры">
+                                Стратегические игры
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#"
+                               title="Карточные игры">
+                                Карточные игры
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#"
+                               title="Для компании">
+                                Для компании
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#"
+                               title="Приключенческие игры">
+                                Приключенческие игры
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#"
+                               title="Для вечеринки">
+                                Для вечеринки
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#"
+                               title="Настольные квесты">
+                                Настольные квесты
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#" title="Для всей семьи">
+                                Для всей семьи
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#" title="Для детей">
+                                Для детей
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  "
+                               href="#"
+                               title="Для взрослых">
+                                Для взрослых
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#"
+                               title="Для влюбленных">
+                                Для влюбленных
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#"
+                               title="Детективные игры">
+                                Детективные игры
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#"
+                               title="Хардкорные игры">
+                                Хардкорные игры
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#" title="Дуэльные игры">
+                                Дуэльные игры
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#"
+                               title="Экономические игры">
+                                Экономические игры
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#"
+                               title="Кооперативные игры">
+                                Кооперативные игры
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#" title="Наборы игр">
+                                Наборы игр
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                        <li class="main-menu__item">
+                            <a class="main-menu__link  " href="#" title="Дополнения">
+                                Дополнения
+                            </a>
+                            <ul class="main-menu__submenu "></ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#" title="Ролевые игры">
+                        Ролевые игры
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#" title="Серии игр">
+                        Серии игр
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#" title="Книги и комиксы">
+                        Книги и комиксы
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#" title="Фигурки и мерч">
+                        Фигурки и мерч
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#" title="Аниме">
+                        Аниме
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#" title="ККИ/ЖКИ">
+                        ККИ/ЖКИ
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#" title="Игрушки и Развлечения">
+                        Игрушки и Развлечения
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#" title="Аксессуары">
+                        Аксессуары
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#"
+                       title="Фэшн Аксессуары">
+                        Фэшн Аксессуары
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#" title="Fun Food">
+                        Fun Food
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#" title="Подборки игр">
+                        Подборки игр
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+                <li class="main-menu__item">
+                    <a class="main-menu__link  " href="#"
+                       title="Товары за бонусы">
+                        Товары за бонусы
+                    </a>
+                    <ul class="main-menu__submenu "></ul>
+                </li>
+            </ul>
+        </div>
+        <div class="phone">
+            <p>Бесплатный звонок</p>
+            <a href="tel:+79994310775">+7 (999) 431-07-75</a>
+            <p class="time">с 10:00 до 21:00,<br>
+                по&nbsp;местному  времени,<br>
+                без&nbsp;выходных</p>
+        </div>
+    </section>
+</main>
+
+
+<footer class="footer">
+        <div class="site-reconstruction">
+            <div class="site-reconstruction__inner container">
+                <p>Если у вас есть вопросы.<a href="faq.html">Обращайтесь к нам</a></p>
+            </div>
+        </div>
+    <div class="footer__container container">
+
+        <div class="row">
+
+            <div class="footer__nav">
+                <div class="footer__nav-menu">
+
+                    <span class="h4 mb-3">Хромой мипл</span>
+
+                    <ul class="footer__nav-list row">
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Настольные игры-ходилки</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Данетки</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Игры с фишками и
+                                кубиками</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Головоломки</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Детективные</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Ролевые</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Военные</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Карточная</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Хиты</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">В компанию</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Праздник</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Большой компании</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Вечеринка</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Игральные карты</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Покер</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">С детьми</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Семейные</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Развивающие</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Быстрые</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">На память</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Простые</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">В подарок</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">День рождения</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Другу</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Романтика</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Стратегические</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Мужчине</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">В дорогу</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Для одного</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Учим
+                                английский</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Для двоих</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">На ловкость</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">На логику</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Дом и аксессуары</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Игрушки</a>
+                        </li>
+                        <li class="footer__nav-item mb-2">
+                            <a href="#" class="footer__nav-link">Архивные товары</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="footer__nav-stocks">
+
+                    <span class="h4 mb-3">Наши магазины</span>
+
+                    <ul class="stocks-list-footer">
+                    </ul>
+
+                </div>
+
+                <div class="footer__nav-company">
+
+                    <span class="h4 mb-3">О компании</span>
+
+                    <ul class="menu-company">
+                        <li class="menu-company__item">
+                            <a class="menu-company__link " href="#">Оплата</a>
+                        </li>
+                        <li class="menu-company__item">
+                            <a class="menu-company__link " href="#">Доставка</a>
+                        </li>
+                        <li class="menu-company__item footer">
+                            <a class="menu-company__link " href="#">Бонусная программа</a>
+                        </li>
+                        <li class="menu-company__item">
+                            <a class="menu-company__link " href="#">Новости</a>
+                        </li>
+                        <li class="menu-company__item">
+                            <a class="menu-company__link " href="#">Про Хромого Мипла</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="footer__contacts">
+                <div class="phone-section">
+                    <div class="phone-section__descriptions">
+                        <a class="phone-section__phone" href="#">8 (999) 431-07-75</a>
+                        <span class="phone-section__time">с 10:00 до 21:00, по местному времени, без&nbsp;выходных</span>
+                    </div>
+
+                </div>
+
+
+                <ul class="font-12 d-none d-md-block my-3">
+
+                    <li class="mb-2">
+                        Если у вас есть вопросы.<a href="faq.html">Обращайтесь к нам</a>
+                    </li>
+
+                    <li class="mb-2">
+                        <a class="d-block" href="#"></a>
+                        <strong>Артем Синяков</strong>, руководитель клуба
+                    </li>
+
+                </ul>
+                <div class="footer__social-container social-container mt-md-3">
+                    <span class="h5 text-normal">Мы в социальных сетях</span>
+                    <ul class="social">
+                        <li class="social__item">
+                            <a href="https://vk.com/hromoymeeple" target="_blank">
+                                <i class="icon-vk-o"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" target="_blank">
+                                <i class="icon-telegram-o"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <div class="container mw-sm-100">
+            <div class="row">
+                <p class="col-md-8 font-12 base-color py-3">
+                    © Магазин-клуб настольных игр для детей и взрослых «Хромой Мипл», <br>
+                    2017–2023. Копирование материалов сайта разрешено только при наличии письменного согласия
+                    администрации Хромого мипла
+                    <span>Содержимое сайта не является публичной офертой</span>
+                    <span class="copyright__list">
+                    <a href="#" target="_blank">Публичная оферта</a>
+                    <a href="#" target="_blank">Политика конфиденциальности</a>
+                    <a href="#" target="_blank">Возврат и обмен</a>
+                </span>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
